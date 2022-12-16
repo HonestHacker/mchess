@@ -7,7 +7,7 @@ from score_table import SCORE_TABLE, SIMPLE_SCORE_TABLE
 inf = float('inf')
 
 LIBRARY = 'baron30.bin'
-DEPTH_LIMIT = 3
+DEPTH_LIMIT = 2
 
 class Engine:
 	def __init__(self, version, engine_player_color):

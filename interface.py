@@ -32,8 +32,9 @@ while not board.is_game_over():
 		c_move = eng.move(board)
 		board.push(c_move)
 	else:
-		clear(); print(board)
 		c_move = eng.move(board)
 		board.push(c_move)
+		print(str(board)[::-1])
 		h_move = input('Move: ')
 		board.push_san(h_move)
+		clear();
